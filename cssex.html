@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  font-family: Arial;
+  background: #f2f2f2;
+}
+
+/* Login box */
+.login {
+  width: 300px;
+  margin: auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  position: relative;
+  animation: move 2s;
+}
+
+/* Input fields */
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+/* Button */
+button {
+  width: 100%;
+  background: green;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  transition: 0.5s;
+}
+
+/* Hover effect */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Click effect */
+button:active {
+  opacity: 0.6;
+}
+
+/* Animation */
+@keyframes move {
+  from { top: 0px; }
+  to { top: 25px; }
+}
+
+/* Responsive design */
+@media screen and (max-width: 300px) {
+  .login {
+    width: 80%;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<div class="login">
+  <h2>Login</h2>
+  <input type="text" placeholder="Username">
+  <input type="password" placeholder="Password">
+  <button>Login</button>
+</div>
+
+</body>
+</html>

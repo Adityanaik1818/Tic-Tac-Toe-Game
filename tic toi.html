@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic-Tac-Toe</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f9;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        margin: 0;
+      }
+
+      .container {
+        text-align: center;
+        background: #ffffff;
+        border-radius: 8px;
+        padding: 20px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+      }
+
+      h1 {
+        font-size: 2rem;
+        margin-bottom: 10px;
+        color: #333;
+      }
+
+      .board {
+        display: grid;
+        grid-template-columns: repeat(3, 100px);
+        gap: 10px;
+        margin: 20px auto;
+      }
+
+      .cell {
+        width: 100px;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2rem;
+        font-weight: bold;
+        background-color: #f9f9f9;
+        border: 2px solid #ccc;
+        border-radius: 5px;
+        cursor: pointer;
+        user-select: none;
+        transition: background-color 0.3s ease;
+      }
+
+      .cell.X {
+        color: green;
+      }
+
+      .cell.O {
+        color: red;
+      }
+
+      .cell.win {
+        background-color: #c8e6c9 !important;
+      }
+
+      button {
+        padding: 10px 20px;
+        font-size: 1rem;
+        color: #fff;
+        background-color: #007bff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 20px;
+      }
+
+      button:hover {
+        background-color: #0056b3;
+      }
+
+      #message,
+      #turn {
+        font-size: 1.2rem;
+        font-weight: bold;
+        margin-top: 15px;
+        color: #333;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Tic-Tac-Toe</h1>
+      <div id="turn">Current Turn: X</div>
+      <div class="board" id="board">
+        <!-- Cells will be dynamically inserted -->
+      </div>
+      <button onclick="restartGame()">Restart</button>
+      <div id="message"></div>
+    </div>
+
+    <script>
+      let currentPlayer = "X";
+      let gameBoard = Array(9).fill("");
+      let gameOver = false;
+
+      const board = document.getElementById("board");
+      const message = document.getElementById("message");
+      const turn = document.getElementById("turn");
+
+      // Initialize board
+      function initBoard() {
+        board.innerHTML = "";
+        for (let i = 0; i < 9; i++) {
+          const cell = document.createElement("div");
+          cell.classList.add("cell");
+          cell.id = "cell" + i;
+          cell.textContent = i + 1;
+          cell.addEventListener("click", () => makeMove(i));
+          board.appendChild(cell);
+        }
+      }
+
+      function makeMove(index) {
+        if (gameBoard[index] !== "" || gameOver) return;
+
+        gameBoard[index] = currentPlayer;
+        const cell = document.getElementById("cell" + index);
+        cell.textContent = currentPlayer;
+        cell.classList.add(currentPlayer);
+
+        playClickSound();
+
+        if (checkWinner()) {
+          message.textContent = `${currentPlayer} wins! 🎉 Thank you for playing! 🎊`;
+          gameOver = true;
+          return;
+        }
+
+        if (!gameBoard.includes("")) {
+          message.textContent = "It's a draw! 🤝 Restart to play again.";
+          gameOver = true;
+          return;
+        }
+
+        currentPlayer = currentPlayer === "X" ? "O" : "X";
+        turn.textContent = `Current Turn: ${currentPlayer}`;
+      }
+
+      function checkWinner() {
+        const winPatterns = [
+          [0, 1, 2],
+          [3, 4, 5],
+          [6, 7, 8],
+          [0, 3, 6],
+          [1, 4, 7],
+          [2, 5, 8],
+          [0, 4, 8],
+          [2, 4, 6],
+        ];
+
+        for (let pattern of winPatterns) {
+          const [a, b, c] = pattern;
+          if (
+            gameBoard[a] &&
+            gameBoard[a] === gameBoard[b] &&
+            gameBoard[a] === gameBoard[c]
+          ) {
+            document.getElementById("cell" + a).classList.add("win");
+            document.getElementById("cell" + b).classList.add("win");
+            document.getElementById("cell" + c).classList.add("win");
+            return true;
+          }
+        }
+        return false;
+      }
+
+      function restartGame() {
+        gameBoard.fill("");
+        gameOver = false;
+        currentPlayer = "X";
+        message.textContent = "";
+        turn.textContent = "Current Turn: X";
+        initBoard();
+      }
+
+      function playClickSound() {
+        const audio = new Audio(
+          "https://www.soundjay.com/buttons/sounds/button-16.mp3"
+        );
+        audio.play();
+      }
+
+      // Start the game on load
+      initBoard();
+    </script>
+  </body>
+</html>
