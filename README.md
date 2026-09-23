@@ -1,68 +1,67 @@
 <div align="center">
 
-<!-- Arcade Neon Header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8A2BE2,100:00c8ff&height=280&section=header&text=Tic%20Tac%20Toe&fontSize=80&fontAlignY=35&animation=twinkling&fontColor=ffffff&desc=The%20Classic%20Web%20Experience&descAlignY=55&descAlign=50" width="100%" />
+<!-- Premium Gradient Header -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF007F,100:7928CA&height=250&section=header&text=Tic%20Tac%20Toe&fontSize=85&fontAlignY=35&animation=twinkling&fontColor=ffffff&desc=A%20Modern%20Web%20Experience&descAlignY=55&descAlign=50" width="100%" />
 
-<!-- Animated Neon Typing Text -->
-<img src="https://readme-typing-svg.herokuapp.com/?lines=►+Classic+3x3+Grid+Gameplay;►+Interactive+%26+Responsive+UI;►+Immersive+Audio+Feedback;►+Play+Locally+With+A+Friend&center=true&width=600&height=60&color=00c8ff&vCenter=true&size=22&font=Fira+Code" />
+<!-- Sleek Animated Typing -->
+<img src="https://readme-typing-svg.herokuapp.com/?lines=✨+Sleek+%26+Minimalist+UI;🎮+Classic+3x3+Gameplay;🔊+Immersive+Sound+Effects;🚀+Zero+Setup.+Instant+Play.&center=true&width=600&height=50&color=FF007F&vCenter=true&size=20&font=Inter" />
 
 <br>
 
 <p align="center">
   <a href="https://github.com/Adityanaik1818">
-    <img src="https://img.shields.io/badge/Developer-Aditya%20Naik-000000?style=for-the-badge&logo=github&logoColor=00c8ff" alt="Author">
+    <img src="https://img.shields.io/badge/UI%2FUX-Aditya%20Naik-000000?style=for-the-badge&logo=github&logoColor=FF007F" alt="Author">
   </a>
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
-  <img src="https://img.shields.io/badge/Vanilla_JS-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
-  <img src="https://img.shields.io/badge/Status-Completed-8A2BE2?style=for-the-badge" alt="Status">
+  <img src="https://img.shields.io/badge/HTML5-000000?style=for-the-badge&logo=html5&logoColor=E34F26" alt="HTML5">
+  <img src="https://img.shields.io/badge/CSS3-000000?style=for-the-badge&logo=css3&logoColor=1572B6" alt="CSS3">
+  <img src="https://img.shields.io/badge/JavaScript-000000?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript">
 </p>
 
+---
+
 <br>
 
+> ### 🖥️ 𝗟𝗜𝗩𝗘 𝗣𝗥𝗘𝗩𝗜𝗘𝗪
+> 
+> *( 📸 **Developer Note:** Drag and drop a high-quality GIF or Screenshot of your game right here so visitors can see your beautiful UI immediately! )*
 
 <br>
+
 </div>
 
 ---
 
 <br>
 
-<h2 align="center">✦ FEATURES & OVERVIEW ✦</h2>
-
-> A highly interactive, classic web-based Tic Tac Toe experience crafted completely from scratch. This project brings the timeless game to the browser with a focus on clean design, fluid playability, and zero distractions.
+<h2 align="center">✦ 𝗘𝗫𝗣𝗘𝗥𝗜𝗘𝗡𝗖𝗘 & 𝗙𝗘𝗔𝗧𝗨𝗥𝗘𝗦 ✦</h2>
 
 <table align="center" width="100%">
   <tr>
     <td width="50%" align="center">
       <br>
-      <img src="https://img.icons8.com/nolan/64/controller.png" width="50"/><br>
-      <b>Classic Gameplay</b><br>
-      <br>
-      <p align="center">Standard 3x3 grid perfectly balanced for two local players.</p>
+      <img src="https://img.icons8.com/fluency-systems-regular/64/FF007F/gamepad.png" width="55"/><br>
+      <h3>Timeless Gameplay</h3>
+      <p align="center">The classic 3x3 grid perfectly engineered for two local players to face off instantly.</p>
     </td>
     <td width="50%" align="center">
       <br>
-      <img src="https://img.icons8.com/nolan/64/monitor.png" width="50"/><br>
-      <b>Interactive UI</b><br>
-      <br>
-      <p align="center">A distraction-free, minimalist, and fully responsive web interface.</p>
+      <img src="https://img.icons8.com/fluency-systems-regular/64/7928CA/design.png" width="55"/><br>
+      <h3>Premium UI/UX</h3>
+      <p align="center">A distraction-free, highly responsive, and beautifully minimalist web interface.</p>
     </td>
   </tr>
   <tr>
     <td width="50%" align="center">
       <br>
-      <img src="https://img.icons8.com/nolan/64/speaker.png" width="50"/><br>
-      <b>Audio Feedback</b><br>
-      <br>
-      <p align="center">Integrated click sound effects for a highly engaging user experience.</p>
+      <img src="https://img.icons8.com/fluency-systems-regular/64/7928CA/speaker.png" width="55"/><br>
+      <h3>Auditory Feedback</h3>
+      <p align="center">Integrated, crisp sound effects that make every single move feel satisfying.</p>
     </td>
     <td width="50%" align="center">
       <br>
-      <img src="https://img.icons8.com/nolan/64/rocket.png" width="50"/><br>
-      <b>Zero Setup</b><br>
-      <br>
-      <p align="center">A purely front-end architecture that requires no server environment to run.</p>
+      <img src="https://img.icons8.com/fluency-systems-regular/64/FF007F/flash-on.png" width="55"/><br>
+      <h3>Frictionless Setup</h3>
+      <p align="center">Pure front-end architecture. No servers, no installations—just open and play.</p>
     </td>
   </tr>
 </table>
@@ -71,24 +70,28 @@
 
 ---
 
-<h2 align="center">🎮 HOW TO PLAY</h2>
+<br>
 
-1. **Player 1** is `X` and **Player 2** is `O`.
-2. Players take turns clicking on empty squares on the 3x3 grid.
-3. The first player to get 3 of their marks in a row (up, down, across, or diagonally) wins!
-4. If all 9 squares are full and no player has 3 in a row, the game ends in a draw.
+<h2 align="center">✦ 𝗛𝗢𝗪 𝗧𝗢 𝗣𝗟𝗔𝗬 ✦</h2>
+
+> **1.** **Player 1** commands `X` and **Player 2** commands `O`.<br>
+> **2.** Take turns claiming empty squares on the board.<br>
+> **3.** Align 3 of your marks vertically, horizontally, or diagonally to claim victory!<br>
+> **4.** A full board with no alignment results in a draw.
 
 <br>
 
 ---
 
-<h2 align="center">✦ QUICK START GUIDE ✦</h2>
+<br>
 
-Get the game running on your local machine in just a few seconds:
+<h2 align="center">✦ 𝗤𝗨𝗜𝗖𝗞 𝗦𝗧𝗔𝗥𝗧 ✦</h2>
+
+<p align="center">Deploy the game to your local environment in seconds:</p>
 
 ```bash
 # 1. Clone the repository
 git clone [https://github.com/Adityanaik1818/Tic-Tac-Toe-Game.git](https://github.com/Adityanaik1818/Tic-Tac-Toe-Game.git)
 
-# 2. Navigate to the project folder
+# 2. Navigate to the project directory
 cd Tic-Tac-Toe-Game
