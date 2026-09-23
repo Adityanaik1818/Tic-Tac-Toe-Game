@@ -10,20 +10,16 @@
 
 <p align="center">
   <a href="https://github.com/Adityanaik1818">
-    <img src="https://img.shields.io/badge/UI%2FUX-Aditya%20Naik-000000?style=for-the-badge&logo=github&logoColor=FF007F" alt="Author">
+    <img src="https://img.shields.io/badge/UI%2FUX_Engineer-Aditya%20Naik-000000?style=for-the-badge&logo=github&logoColor=FF007F" alt="Author">
   </a>
   <img src="https://img.shields.io/badge/HTML5-000000?style=for-the-badge&logo=html5&logoColor=E34F26" alt="HTML5">
   <img src="https://img.shields.io/badge/CSS3-000000?style=for-the-badge&logo=css3&logoColor=1572B6" alt="CSS3">
-  <img src="https://img.shields.io/badge/JavaScript-000000?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript">
+  <img src="https://img.shields.io/badge/Vanilla_JS-000000?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript">
 </p>
-
----
 
 <br>
 
-> ### 🖥️ 𝗟𝗜𝗩𝗘 𝗣𝗥𝗘𝗩𝗜𝗘𝗪
-> 
-> *( 📸 **Developer Note:** Drag and drop a high-quality GIF or Screenshot of your game right here so visitors can see your beautiful UI immediately! )*
+> *"Reimagining a timeless classic through the lens of modern web design. Every pixel, layout choice, and sound effect was meticulously engineered to deliver a flawless, distraction-free multiplayer experience."*
 
 <br>
 
@@ -41,7 +37,7 @@
       <br>
       <img src="https://img.icons8.com/fluency-systems-regular/64/FF007F/gamepad.png" width="55"/><br>
       <h3>Timeless Gameplay</h3>
-      <p align="center">The classic 3x3 grid perfectly engineered for two local players to face off instantly.</p>
+      <p align="center">The classic 3x3 grid perfectly balanced for two local players to face off instantly.</p>
     </td>
     <td width="50%" align="center">
       <br>
@@ -74,10 +70,17 @@
 
 <h2 align="center">✦ 𝗛𝗢𝗪 𝗧𝗢 𝗣𝗟𝗔𝗬 ✦</h2>
 
-> **1.** **Player 1** commands `X` and **Player 2** commands `O`.<br>
-> **2.** Take turns claiming empty squares on the board.<br>
-> **3.** Align 3 of your marks vertically, horizontally, or diagonally to claim victory!<br>
-> **4.** A full board with no alignment results in a draw.
+<div align="center">
+  <img src="https://img.shields.io/badge/PLAYER_1-Plays_X-FF007F?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/VS-Battle-000000?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/PLAYER_2-Plays_O-7928CA?style=for-the-badge" />
+</div>
+
+<br>
+
+> **1.** Take turns claiming empty squares on the board.<br>
+> **2.** Align **3** of your marks vertically, horizontally, or diagonally to claim victory.<br>
+> **3.** A full board with no alignment results in a draw. Block your opponent wisely!
 
 <br>
 
